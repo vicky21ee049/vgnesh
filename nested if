@@ -1,0 +1,45 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+    char gender;
+    int age;
+    printf("Enter the name of the gender:");
+    scanf("%c",&gender);
+    printf("Enter the number of age:");
+    scanf("%d",&age);
+    if(gender=='A'||gender=='a')
+    {
+        if (age>=18)
+        {
+            printf("Eligible Bachelore..");
+        }
+        else
+        {
+            printf("Not eligible..");
+        }
+    }
+    else if(gender=='F'||gender=='f')
+    
+    {
+        if(age>=18)
+        {
+         printf("Eligible spinster..");
+        }
+        else
+        {
+         printf("Not eligible..");
+        }
+    }    
+    else
+    {
+        printf("Please check the given details..");
+    }
+
+    
+     
+     
+
+    return 0;
+}
