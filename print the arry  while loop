@@ -1,0 +1,20 @@
+    #include <stdio.h>
+
+    int main()
+    {
+        // Declare an array arr with the elements
+        int arr[10] = {54, 27, 15, 6, 47, 134, 69, 153, 3, 51};
+
+        // Declare a variable to help with iteration
+        int i = 0;
+
+        // We iterate while i is less than the total amount of elements
+        while (i < 10)
+        {
+            printf("%d ", arr[i]);
+            i++;
+        }
+
+        return 0;
+    }
+
