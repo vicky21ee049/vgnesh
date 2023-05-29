@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+   int arr[5]={1,2,3,4,5,};
+   int sum=0;
+   int avg =0;
+   for (int i=0;i<5;i++)
+   {
+       sum=sum+arr[i];
+       
+   }
+   
+   
+   avg=sum/5;
+   printf("%d",avg);
+    return 0;
+}
