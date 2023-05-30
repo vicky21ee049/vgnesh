@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+   int n=124 ;
+   int rev=0;
+   int r;
+   int n1=n;
+   while(n>0)
+   {
+       r=n%10;
+       rev=rev*10+r;
+       n=n/10;
+   }
+   if(n1==rev)
+   {
+       printf("PALINDROME");
+   }
+   else
+   {
+       printf("NOT A PALINDROME");
+   }
+    return 0;
+}
